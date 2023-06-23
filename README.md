@@ -24,7 +24,7 @@ For the LoginServlet.java code, ensure the following lines is written correctly:
 		               "jdbc:mysql://localhost:3306/useraccount?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC",
 		               "root", "xxxx");
 
-      1) "com.mysql.cj.jdbc.Driver" is the correct path to Driver
-      2) jdbc:mysql://localhost:3306, the correct localhost is chosen
-      3) useraccount, the correct database is written
-      4) "root", "xxxx", the correct user and password of mySQL is written
+1) "com.mysql.cj.jdbc.Driver" is the correct path to Driver
+2) jdbc:mysql://localhost:3306, the correct localhost is chosen
+3) useraccount, the correct database is written
+4) "root", "xxxx", the correct user and password of mySQL is written
