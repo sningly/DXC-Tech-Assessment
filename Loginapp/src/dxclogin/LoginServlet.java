@@ -38,7 +38,7 @@ public class LoginServlet extends HttpServlet {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection conn = DriverManager.getConnection(
 		               "jdbc:mysql://localhost:3306/useraccount?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC",
-		               "root", "LQSym*r00tpw");
+		               "root", "xxxx");
 			
 			PreparedStatement ps = conn.prepareStatement("select userid, name, role from accountinfo where userid=? and password=?");
 			ps.setString(1, id);
